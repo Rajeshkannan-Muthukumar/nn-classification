@@ -31,6 +31,8 @@ Split the data to training and testing
 Train the data and then predict using Tensorflow
 
 ## PROGRAM
+         NAME   : M.RAJESHKANNAN
+         REG NO : 212221230081
 
 ```
 import pandas as pd
