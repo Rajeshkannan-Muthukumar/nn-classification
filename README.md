@@ -130,7 +130,7 @@ X_train_scaled[:,2] = scaler_age.transform(X_train[:,2].reshape(-1,1)).reshape(-
 X_test_scaled[:,2] = scaler_age.transform(X_test[:,2].reshape(-1,1)).reshape(-1)
 
 # Creating the model
-ai_brain = Sequential([Dense(8,input_shape=(8,)),Dense(16, activation ='relu'),Dense(16, activation ='relu'),Dense(4,activation='softmax'
+ai_brain = Sequential([Dense(8,input_shape=(8,)),Dense(16, activation ='relu'),Dense(16, activation ='relu'),Dense(4,activation='softmax'])
 ai_brain.compile(optimizer='adam',
 loss='categorical_crossentropy',
 metrics=['accuracy'])
