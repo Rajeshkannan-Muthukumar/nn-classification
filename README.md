@@ -60,7 +60,7 @@ df.columns
 df.dtypes
 df.shape
 df.isnull().sum()
-df_cleaned = customer_df.dropna(axis=0)
+df_cleaned = df.dropna(axis=0)
 df_cleaned.isnull().sum()
 df_cleaned.shape
 df_cleaned.dtypes
